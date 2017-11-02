@@ -229,7 +229,7 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
         }
         return returnedEmoji;
     }
-
+//asdfg
     private String getEmojiByUnicode(int unicode) {
         return new String(Character.toChars(unicode));
     }
