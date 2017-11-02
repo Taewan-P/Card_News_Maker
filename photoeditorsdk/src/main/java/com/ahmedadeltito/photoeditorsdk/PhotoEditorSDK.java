@@ -289,3 +289,4 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
         }
     }
 }
+//please
