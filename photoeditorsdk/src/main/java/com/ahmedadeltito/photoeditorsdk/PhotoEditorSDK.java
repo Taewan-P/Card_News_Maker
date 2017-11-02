@@ -836,4 +836,4 @@ public class PhotoEditorSDK extends Context implements MultiTouchListener.OnMult
         }
     }
 }
-//please
+//please 해결돰?
