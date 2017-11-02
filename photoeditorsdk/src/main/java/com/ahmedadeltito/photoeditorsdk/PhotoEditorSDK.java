@@ -246,7 +246,7 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
             addedViews.remove(addTextRootView);
         }
     }
-
+//asdf
     @Override
     public void onRemoveViewListener(View removedView) {
         viewUndo(removedView);
