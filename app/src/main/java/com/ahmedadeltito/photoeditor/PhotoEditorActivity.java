@@ -313,9 +313,9 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
 
             public void onFinish() {
                 String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-                String imageName = "IMG_" + timeStamp + ".jpg";
+                String imageName = "CARD_" + timeStamp + ".jpg";
                 Intent returnIntent = new Intent();
-                returnIntent.putExtra("imagePath", photoEditorSDK.saveImage("PhotoEditorSDK", imageName));
+                returnIntent.putExtra("imagePath", photoEditorSDK.saveImage("CardNewsMaker", imageName));
                 setResult(Activity.RESULT_OK, returnIntent);
                 finish();
             }

@@ -194,7 +194,7 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
             // Create a storage directory if it does not exist
             if (!mediaStorageDir.exists()) {
                 if (!mediaStorageDir.mkdirs()) {
-                    Log.d("PhotoEditorSDK", "Failed to create directory");
+                    Log.d("CardNewsMaker", "Failed to create directory");
                 }
             }
             // Create a media file name
@@ -205,7 +205,7 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
                 FileOutputStream out = new FileOutputStream(file);
                 if (parentView != null) {
                     parentView.setDrawingCacheEnabled(true);
-                    parentView.getDrawingCache().compress(Bitmap.CompressFormat.JPEG, 80, out);
+                    parentView.getDrawingCache().compress(Bitmap.CompressFormat.JPEG, 100, out);
                 }
                 out.flush();
                 out.close();
