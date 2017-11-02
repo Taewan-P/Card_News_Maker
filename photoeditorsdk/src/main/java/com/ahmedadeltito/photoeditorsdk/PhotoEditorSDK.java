@@ -1,5 +1,6 @@
 package com.ahmedadeltito.photoeditorsdk;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.ContentResolver;
@@ -251,6 +252,7 @@ public class PhotoEditorSDK extends Context implements MultiTouchListener.OnMult
                 Log.i("ExternalStorage", "-> uri=" + uri);
             }
         });
+
         return selectedOutputPath;
     }
 
@@ -679,21 +681,25 @@ public class PhotoEditorSDK extends Context implements MultiTouchListener.OnMult
         return null;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkPermission(@NonNull String permission, int pid, int uid) {
         return 0;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkCallingPermission(@NonNull String permission) {
         return 0;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkCallingOrSelfPermission(@NonNull String permission) {
         return 0;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkSelfPermission(@NonNull String permission) {
         return 0;
@@ -724,21 +730,25 @@ public class PhotoEditorSDK extends Context implements MultiTouchListener.OnMult
 
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkUriPermission(Uri uri, int pid, int uid, int modeFlags) {
         return 0;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkCallingUriPermission(Uri uri, int modeFlags) {
         return 0;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkCallingOrSelfUriPermission(Uri uri, int modeFlags) {
         return 0;
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public int checkUriPermission(@Nullable Uri uri, @Nullable String readPermission, @Nullable String writePermission, int pid, int uid, int modeFlags) {
         return 0;
