@@ -7,4 +7,5 @@
     android:layout_margin="4dp"
     android:padding="12dp"
     android:textColor="#000000"
-    android:textSize="40sp" />
+    android:textSize="40sp"
+    android:background="#aad1d1d1"/>
