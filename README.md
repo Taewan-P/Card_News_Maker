@@ -3,7 +3,7 @@
 
 It's an android app that makes card-news. 
 
-Card News is a unique culture in Korea that puts news contents on texts in form of cards . It is usually posted on SNS.
+Card News is a unique culture in Korea that puts news contents on texts in form of cards. It is usually posted on SNS.
 
 **[CardNewsMaker](https://github.com/Taewan-P/Card_News_Making_Tool)** is a Card News making tool which is based on **[PhotoEditorSDK](https://github.com/eventtus/photo-editor-android)**.
 
@@ -19,6 +19,13 @@ Card News is a unique culture in Korea that puts news contents on texts in form 
 * Saving image after editing.
 * Undo after editing.
 * Sharing Card News after editing (**Not Working!!**)
+
+
+
+## Known Bugs
+
+* Hi-Resolution vertically long images(Portrait) rotates 90 degrees counterclockwise automatically.
+* Without editing anything at the photo editing screen, selecting 'clear all button' makes app crash.
 
 
 
