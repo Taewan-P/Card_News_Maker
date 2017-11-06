@@ -3,7 +3,7 @@
 
 It's an android app that makes card-news. 
 
-Card News is a unique culture in Korea that puts news contents on texts in form of cards. It is usually posted on SNS.
+Card News is a unique culture in Korea that puts news contents in form of cards. It is usually posted on SNS.
 
 **[CardNewsMaker](https://github.com/Taewan-P/Card_News_Making_Tool)** is a Card News making tool which is based on **[PhotoEditorSDK](https://github.com/eventtus/photo-editor-android)**.
 
