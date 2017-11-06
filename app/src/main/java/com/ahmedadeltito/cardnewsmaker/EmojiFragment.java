@@ -1,4 +1,4 @@
-package com.ahmedadeltito.photoeditor;
+package com.ahmedadeltito.cardnewsmaker;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

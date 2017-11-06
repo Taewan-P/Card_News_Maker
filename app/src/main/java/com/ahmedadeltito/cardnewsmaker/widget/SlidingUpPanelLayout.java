@@ -1,4 +1,4 @@
-package com.ahmedadeltito.photoeditor.widget;
+package com.ahmedadeltito.cardnewsmaker.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.widget.ListView;
 import android.widget.ScrollView;
 
-import com.ahmedadeltito.photoeditor.R;
+import com.ahmedadeltito.cardnewsmaker.R;
 import com.nineoldandroids.view.animation.AnimatorProxy;
 
 public class SlidingUpPanelLayout extends ViewGroup {

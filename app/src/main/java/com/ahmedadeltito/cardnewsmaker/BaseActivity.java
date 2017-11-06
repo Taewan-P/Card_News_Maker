@@ -1,4 +1,4 @@
-package com.ahmedadeltito.photoeditor;
+package com.ahmedadeltito.cardnewsmaker;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;

@@ -1,4 +1,4 @@
-package com.ahmedadeltito.photoeditor;
+package com.ahmedadeltito.cardnewsmaker;
 
 import org.junit.Test;
 

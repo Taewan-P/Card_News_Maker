@@ -15,7 +15,7 @@
  */
 
 
-package com.ahmedadeltito.photoeditor.widget;
+package com.ahmedadeltito.cardnewsmaker.widget;
 
 import android.content.Context;
 import android.support.v4.view.MotionEventCompat;

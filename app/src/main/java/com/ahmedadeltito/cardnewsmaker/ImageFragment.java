@@ -1,4 +1,4 @@
-package com.ahmedadeltito.photoeditor;
+package com.ahmedadeltito.cardnewsmaker;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
