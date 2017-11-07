@@ -27,4 +27,5 @@
             android:windowSoftInputMode="stateHidden|adjustPan" />
     </application>
 
+
 </manifest>

@@ -37,7 +37,7 @@ Works on devices 4.2+ (Jelly Bean or Higher).
 
 ## Installation
 
-Download the apk [Here](https://drive.google.com/uc?id=1B353REqmMtVRNJVw7ohjt_oC8zWvCCiw&export=download) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
+Download the apk [Here](https://drive.google.com/open?id=1iNiyhmU2pMtvOKRdoYNg_k1SnM8J6KvZ) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
 
 
 
@@ -51,4 +51,10 @@ Download the apk [Here](https://drive.google.com/uc?id=1B353REqmMtVRNJVw7ohjt_oC
 
 Copyright (c) 2017
 
-Card_News_Making_Tool-android is released under the MIT license.
+* MIT License
+* Creative Commons Attribution 3.0 International (CC BY 3.0) license
+
+
+
+Card_News_Making_Tool-android is released under the MIT, CCA 3.0 License.
+
