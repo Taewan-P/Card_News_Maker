@@ -26,6 +26,7 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.net.Uri;
 
 import com.ahmedadeltito.cardnewsmaker.widget.SlidingUpPanelLayout;
 import com.ahmedadeltito.photoeditorsdk.BrushDrawingView;
@@ -38,6 +39,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.io.File;
 
 public class PhotoEditorActivity extends AppCompatActivity implements View.OnClickListener, OnPhotoEditorSDKListener {
 
@@ -322,6 +324,24 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
         }.start();
     }
 
+    private void saveAndShareThisImage() {
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String imageName = "Card_" + timeStamp + ".jpg";
+        Intent returnIntent = new Intent();
+        returnIntent.putExtra("imagePath", photoEditorSDK.saveImage("CardNewsMaker", imageName));
+        setResult(Activity.RESULT_OK, returnIntent);
+
+        Intent share = new Intent(Intent.ACTION_SEND);
+
+//        share.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(path)));
+//        share.putExtra(Intent.EXTRA_TEXT, "Sha-red via" + APP_URL);
+        File sharedFile = new File("/CardNewsMaker/*.jpg");
+        Uri uri = Uri.fromFile(sharedFile);
+        share.setType("image/*");
+        share.putExtra(Intent.EXTRA_STREAM, uri.toString());
+        startActivity(Intent.createChooser(share, "편집한 카드 공유하기"));
+    }
+
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.close_tv) {
@@ -343,7 +363,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
         } else if (v.getId() == R.id.erase_drawing_tv) {
             eraseDrawing();
         } else if (v.getId() == R.id.go_to_next_screen_tv) {
-            returnBackWithSavedImage();
+            saveAndShareThisImage();
         }
     }
 

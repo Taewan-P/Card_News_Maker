@@ -22,8 +22,8 @@
     <string name="ic_clear_all">"\ue947"</string>
     <string name="ic_continue">"\ue948"</string>
     <string name="ic_delete">"\ue92c"</string>
-    <string name="choose_from_gallery">Choose Background Image from Gallery</string>
-    <string name="choose_from_camera">Take a Picture</string>
+    <string name="choose_from_gallery">Gallery</string>
+    <string name="choose_from_camera">Camera</string>
     <string name="undo">Undo</string>
     <string name="erase">Erase</string>
 

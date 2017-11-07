@@ -18,7 +18,7 @@ Card News is a unique culture in Korea that puts news contents in form of cards.
 * Drawing on image with option to change its color, its size and erasing.
 * Saving image after editing.
 * Undo after editing.
-* Sharing Card News after editing (**Not Working!!**)
+* Sharing Card after editing. (**Not Working!!**)
 
 
 
@@ -37,7 +37,7 @@ Works on devices 4.2+ (Jelly Bean or Higher).
 
 ## Installation
 
-Download the apk [Here]() and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
+Download the apk [Here](https://drive.google.com/uc?authuser=0&id=1B353REqmMtVRNJVw7ohjt_oC8zWvCCiw&export=download) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
 
 
 
