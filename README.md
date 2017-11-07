@@ -37,7 +37,7 @@ Works on devices 4.2+ (Jelly Bean or Higher).
 
 ## Installation
 
-Download the apk [Here](https://drive.google.com/open?id=1iNiyhmU2pMtvOKRdoYNg_k1SnM8J6KvZ) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
+Download the apk [Here](https://drive.google.com/uc?id=1iNiyhmU2pMtvOKRdoYNg_k1SnM8J6KvZ&export=download) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
 
 
 
