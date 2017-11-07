@@ -7,6 +7,8 @@ Card News is a unique culture in Korea that puts news contents in form of cards.
 
 **[CardNewsMaker](https://github.com/Taewan-P/Card_News_Making_Tool)** is a Card News making tool which is based on **[PhotoEditorSDK](https://github.com/eventtus/photo-editor-android)**.
 
+![Main Screen]()
+
 
 
 ## Features
@@ -18,14 +20,15 @@ Card News is a unique culture in Korea that puts news contents in form of cards.
 * Drawing on image with option to change its color, its size and erasing.
 * Saving image after editing.
 * Undo after editing.
-* Sharing Card after editing. (**Not Working!!**)
+* Sharing Card after editing. (Autosave when Sharing)
 
 
 
 ## Known Bugs
 
 * Hi-Resolution vertically long images(Portrait) rotates 90 degrees counterclockwise automatically.
-* Without editing anything at the photo editing screen, selecting 'clear all button' makes app crash.
+* Without editing anything at the photo editing screen, clicking 'Clear All' button makes app crash.
+* The saved images(Edited with horizontally long images) have blank black space on top and bottom of the image.
 
 
 
@@ -37,7 +40,7 @@ Works on devices 4.2+ (Jelly Bean or Higher).
 
 ## Installation
 
-Download the apk [Here](https://drive.google.com/uc?id=1iNiyhmU2pMtvOKRdoYNg_k1SnM8J6KvZ&export=download) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
+Download the apk [Here](https://drive.google.com/uc?id=1Fo2XfzJu_aeHtc-IZArdk8--9lnj8I9A&export=download) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
 
 
 
