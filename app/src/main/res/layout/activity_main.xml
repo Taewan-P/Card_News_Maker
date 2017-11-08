@@ -37,7 +37,7 @@
             <Button
                 android:layout_width="86dp"
                 android:layout_height="86dp"
-                android:backgroundTint="@color/yellow_green_color_picker"
+                android:backgroundTint="@color/light_violet_color"
                 android:drawableTop="@android:drawable/ic_menu_camera"
                 android:onClick="openUserCamera"
                 android:text="@string/choose_from_camera"
@@ -46,7 +46,7 @@
             <Button
                 android:layout_width="86dp"
                 android:layout_height="86dp"
-                android:backgroundTint="@color/green_color_picker"
+                android:backgroundTint="@color/light_violet_color"
                 android:drawableTop="@android:drawable/ic_menu_gallery"
                 android:onClick="openUserGallery"
                 android:text="@string/choose_from_gallery"
