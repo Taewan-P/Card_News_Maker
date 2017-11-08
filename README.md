@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Card_News_Making_Tool-android
 *This repository is made for OpenSource SW PBL(Project-Based Learning) class at Hanyang Univ.*
 
@@ -58,3 +59,7 @@ Copyright (c) 2017
 
 Card_News_Making_Tool-android is released under the MIT, CCA 3.0 License.
 
+=======
+# Card_News_Making_Tool
+It's an android app that makes card-news. This repository is made for OpenSource SW pbl class at Hanyang Univ.
+>>>>>>> 847762a5810fdd200b9a19c8b593cc228822bfa7
