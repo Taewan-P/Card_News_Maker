@@ -37,7 +37,11 @@
             <Button
                 android:layout_width="86dp"
                 android:layout_height="86dp"
+<<<<<<< HEAD
                 android:backgroundTint="@color/yellow_green_color_picker"
+=======
+                android:backgroundTint="@color/light_violet_color"
+>>>>>>> 19d4a7c0111026237b19b1a724abcff2923f4d1a
                 android:drawableTop="@android:drawable/ic_menu_camera"
                 android:onClick="openUserCamera"
                 android:text="@string/choose_from_camera"
@@ -46,7 +50,11 @@
             <Button
                 android:layout_width="86dp"
                 android:layout_height="86dp"
+<<<<<<< HEAD
                 android:backgroundTint="@color/green_color_picker"
+=======
+                android:backgroundTint="@color/light_violet_color"
+>>>>>>> 19d4a7c0111026237b19b1a724abcff2923f4d1a
                 android:drawableTop="@android:drawable/ic_menu_gallery"
                 android:onClick="openUserGallery"
                 android:text="@string/choose_from_gallery"

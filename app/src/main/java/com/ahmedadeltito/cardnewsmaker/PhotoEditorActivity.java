@@ -8,6 +8,10 @@ import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+<<<<<<< HEAD
+=======
+import android.os.Environment;
+>>>>>>> 19d4a7c0111026237b19b1a724abcff2923f4d1a
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -315,7 +319,11 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
 
             public void onFinish() {
                 String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+<<<<<<< HEAD
                 String imageName = "CARD_" + timeStamp + ".jpg";
+=======
+                String imageName = "CARD_" + timeStamp + ".jpeg";
+>>>>>>> 19d4a7c0111026237b19b1a724abcff2923f4d1a
                 Intent returnIntent = new Intent();
                 returnIntent.putExtra("imagePath", photoEditorSDK.saveImage("CardNewsMaker", imageName));
                 setResult(Activity.RESULT_OK, returnIntent);
@@ -327,6 +335,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
     private void saveAndShareThisImage() {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageName = "Card_" + timeStamp + ".jpg";
+<<<<<<< HEAD
         Intent returnIntent = new Intent();
         returnIntent.putExtra("imagePath", photoEditorSDK.saveImage("CardNewsMaker", imageName));
         setResult(Activity.RESULT_OK, returnIntent);
@@ -342,6 +351,23 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
         startActivity(Intent.createChooser(share, "편집한 카드 공유하기"));
     }
 
+=======
+        String imagePath = photoEditorSDK.saveImage("CardNewsMaker", imageName);
+        Intent returnIntent = new Intent();
+        returnIntent.putExtra("imagePath", imagePath);
+        setResult(Activity.RESULT_OK, returnIntent);
+
+
+        Intent share = new Intent(Intent.ACTION_SEND);
+        File sharedFile = new File(imagePath);
+        Uri uri = Uri.fromFile(sharedFile);
+        share.setType("image/jpeg");
+        share.putExtra(Intent.EXTRA_STREAM, uri);
+        startActivity(Intent.createChooser(share, "편집한 카드 공유하기"));
+    }
+
+
+>>>>>>> 19d4a7c0111026237b19b1a724abcff2923f4d1a
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.close_tv) {

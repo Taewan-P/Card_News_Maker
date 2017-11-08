@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/yellow-10.iml" filepath="$PROJECT_DIR$/yellow-10.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Card_News_Making_Tool.iml" filepath="$PROJECT_DIR$/Card_News_Making_Tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoeditorsdk/photoeditorsdk.iml" filepath="$PROJECT_DIR$/photoeditorsdk/photoeditorsdk.iml" />
+>>>>>>> 19d4a7c0111026237b19b1a724abcff2923f4d1a
     </modules>
   </component>
 </project>
