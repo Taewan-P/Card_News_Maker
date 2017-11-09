@@ -55,18 +55,16 @@
                 android:text="@string/choose_from_gallery"
                 android:textColor="@color/white" />
 
+            <Button
+                android:id="@+id/licensecbtn"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
+                android:backgroundTint="@color/light_violet_color"
+                android:drawableTop="?attr/actionModeCopyDrawable"
+                android:text="License"
+                android:textColor="@color/white"></Button>
+
         </LinearLayout>
-
-
-        <Button
-            android:id="@+id/licensecbtn"
-            android:layout_width="120dp"
-            android:layout_height="50dp"
-            android:layout_gravity="end|bottom"
-            android:backgroundTint="@color/light_violet_color"
-            android:text="License"
-            android:textColor="@color/white"></Button>
-
 
 
     </LinearLayout>
