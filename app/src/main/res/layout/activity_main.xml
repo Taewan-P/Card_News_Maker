@@ -12,9 +12,12 @@
         android:layout_height="match_parent"
         android:background="#ffffff "
         android:gravity="center"
+        android:layout_weight="10"
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="90dp">
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -53,6 +56,18 @@
                 android:textColor="@color/white" />
 
         </LinearLayout>
+
+
+        <Button
+            android:id="@+id/licensecbtn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|bottom"
+            android:backgroundTint="@color/light_violet_color"
+            android:text="License"
+            android:textColor="@color/white"></Button>
+
+
 
     </LinearLayout>
 
