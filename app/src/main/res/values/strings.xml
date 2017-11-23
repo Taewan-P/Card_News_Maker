@@ -26,5 +26,6 @@
     <string name="choose_from_camera">Camera</string>
     <string name="undo">Undo</string>
     <string name="erase">Erase</string>
+    <string name="license">License</string>
 
 </resources>
