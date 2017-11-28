@@ -19,65 +19,71 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="107dp">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="80dp">
+            android:layout_above="@id/license">
 
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="300dp"
-                    android:layout_height="253dp"
-                    app:srcCompat="@drawable/tyle1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="253dp"
+                        app:srcCompat="@drawable/tyle1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="299dp"
+                    android:layout_height="106dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <Button
+                        android:layout_width="86dp"
+                        android:layout_height="86dp"
+                        android:backgroundTint="@color/light_violet_color"
+                        android:drawableTop="@android:drawable/ic_menu_camera"
+                        android:onClick="openUserCamera"
+                        android:text="@string/choose_from_camera"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:layout_width="86dp"
+                        android:layout_height="86dp"
+                        android:backgroundTint="@color/light_violet_color"
+                        android:drawableTop="@android:drawable/ic_menu_gallery"
+                        android:onClick="openUserGallery"
+                        android:text="@string/choose_from_gallery"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/licensecbtn"
+                        android:layout_width="86dp"
+                        android:layout_height="86dp"
+                        android:backgroundTint="@color/light_violet_color"
+                        android:drawableTop="?attr/actionModeCopyDrawable"
+                        android:text="License"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="299dp"
-                android:layout_height="106dp"
-                android:gravity="center"
-                android:orientation="horizontal"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp">
-
-                <Button
-                    android:layout_width="86dp"
-                    android:layout_height="86dp"
-                    android:backgroundTint="@color/light_violet_color"
-                    android:drawableTop="@android:drawable/ic_menu_camera"
-                    android:onClick="openUserCamera"
-                    android:text="@string/choose_from_camera"
-                    android:textColor="@color/white" />
-
-                <Button
-                    android:layout_width="86dp"
-                    android:layout_height="86dp"
-                    android:backgroundTint="@color/light_violet_color"
-                    android:drawableTop="@android:drawable/ic_menu_gallery"
-                    android:onClick="openUserGallery"
-                    android:text="@string/choose_from_gallery"
-                    android:textColor="@color/white" />
-
-                <Button
-                    android:id="@+id/licensecbtn"
-                    android:layout_width="86dp"
-                    android:layout_height="86dp"
-                    android:backgroundTint="@color/light_violet_color"
-                    android:drawableTop="?attr/actionModeCopyDrawable"
-                    android:text="License"
-                    android:textColor="@color/white" />
-
-            </LinearLayout>
-        </LinearLayout>
+        </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/license"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="80dp">
 
             <ImageView
                 android:layout_width="50dp"

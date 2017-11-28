@@ -28,51 +28,37 @@
     <string name="erase">Erase</string>
 
     <string name="mylicense">
-        LICENSE&#10;
-        &#10;
-        Software : Card_News_Making_Tool&#10;
-        Team : Navigation&#10;
-        &#10;
-        This guarantee Card_News_Making_Tool License.&#10;
-        * MIT License&#10;
-        * CC 3.0 License&#10;
-        &#10;
-        Card_News_Making_Tool License is MIT License.&#10;
-        &#10;
-        2017.11.23&#10;
-        Navigation&#10;
-        &#10;
-        &#10;
+        LICENSE\n\
+        Software : Card_News_Making_Tool\n
+        Team : Navigation\n\
+        This guarantee Card_News_Making_Tool License.\n
+        * MIT License\n
+        * CC 3.0 License\n\
+        Card_News_Making_Tool License is MIT License.\n\
+        2017.11.23\n
+        Navigation\n\n\
     </string>
 
     <string name="license">
-        MIT License&#10;
-        &#10;
-        Copyright (c) 2017 Eventtus&#10;
-        &#10;
+        MIT License\n\
+        Copyright (c) 2017 Eventtus\n\
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
-        furnished to do so, subject to the following conditions:
-        &#10;
+        furnished to do so, subject to the following conditions:\n
         The above copyright notice and this permission notice shall be included in all
-        copies or substantial portions of the Software.
-        &#10;
+        copies or substantial portions of the Software.\n
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-        SOFTWARE.
-        &#10;
-        &#10;
-        CC 3.0 License&#10;
-        &#10;
-        This work is licensed under the Creative Commons Attribution 3.0 Unported License.&#10;
+        SOFTWARE.\n\
+        CC 3.0 License\n\
+        This work is licensed under the Creative Commons Attribution 3.0 Unported License.\n
         To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or
         send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</string>
-</resources>
 </resources>
