@@ -1,6 +1,7 @@
 package com.ahmedadeltito.cardnewsmaker;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,21 +25,35 @@ public class MainActivity extends MediaActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // 액티비티 전환
+        // Activity transition Code
         Button button1 = (Button)findViewById(R.id.licensecbtn);
 
         button1.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "라이선스 명시", Toast.LENGTH_LONG).show();
 
-                // 액티비티 전환 코드
+                // Activity transition Code
                 Intent intent = new Intent(getApplicationContext(), LicenseActivity.class);
                 startActivity(intent);
             }
         });
+
+        Button button2 = (Button)findViewById(R.id.websitebtn);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Activity transition Code
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
+                startActivity(intent);
+            }
+        });
     }
+
+
 
 
     @Override
