@@ -9,15 +9,15 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="408dp"
         android:layout_height="match_parent"
         android:layout_weight="10"
         android:background="#ffffff "
         android:gravity="center"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="107dp">
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -36,13 +36,14 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="300dp"
+                        android:layout_width="343dp"
                         android:layout_height="253dp"
+                        android:layout_centerHorizontal="true"
                         app:srcCompat="@drawable/tyle1" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="299dp"
+                    android:layout_width="344dp"
                     android:layout_height="106dp"
                     android:gravity="center"
                     android:orientation="horizontal"
@@ -53,7 +54,8 @@
                         android:layout_width="86dp"
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="@android:drawable/ic_menu_camera"
+                        android:drawablePadding="-dp"
+                        android:drawableTop="@drawable/camera"
                         android:onClick="openUserCamera"
                         android:text="@string/choose_from_camera"
                         android:textColor="@color/white" />
@@ -62,7 +64,7 @@
                         android:layout_width="86dp"
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="@android:drawable/ic_menu_gallery"
+                        android:drawableTop="@drawable/image"
                         android:onClick="openUserGallery"
                         android:text="@string/choose_from_gallery"
                         android:textColor="@color/white" />
@@ -72,8 +74,18 @@
                         android:layout_width="86dp"
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="?attr/actionModeCopyDrawable"
+                        android:drawableTop="@drawable/document"
                         android:text="License"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/websitebtn"
+                        android:layout_width="86dp"
+                        android:layout_height="86dp"
+                        android:backgroundTint="@color/light_violet_color"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@drawable/web"
+                        android:text="Website"
                         android:textColor="@color/white" />
 
                 </LinearLayout>
@@ -88,9 +100,9 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="30dp"
-                app:srcCompat="@drawable/cc3_0"
                 android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/cc3_0" />
 
         </RelativeLayout>
 
