@@ -9,7 +9,7 @@
 
 
     <LinearLayout
-        android:layout_width="408dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="10"
         android:background="#ffffff "
@@ -39,7 +39,7 @@
                         android:layout_width="343dp"
                         android:layout_height="253dp"
                         android:layout_centerHorizontal="true"
-                        app:srcCompat="@drawable/tyle1" />
+                        app:srcCompat="@drawable/cover" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -54,7 +54,6 @@
                         android:layout_width="86dp"
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
-                        android:drawablePadding="-dp"
                         android:drawableTop="@drawable/camera"
                         android:onClick="openUserCamera"
                         android:text="@string/choose_from_camera"
@@ -83,7 +82,6 @@
                         android:layout_width="86dp"
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
-                        android:drawablePadding="5dp"
                         android:drawableTop="@drawable/web"
                         android:text="Website"
                         android:textColor="@color/white" />
