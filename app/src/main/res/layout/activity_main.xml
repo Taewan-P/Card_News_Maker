@@ -74,7 +74,7 @@
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
                         android:drawableTop="@drawable/document"
-                        android:text="License"
+                        android:text="@string/open_license"
                         android:textColor="@color/white" />
 
                     <Button
@@ -83,7 +83,7 @@
                         android:layout_height="86dp"
                         android:backgroundTint="@color/light_violet_color"
                         android:drawableTop="@drawable/web"
-                        android:text="Website"
+                        android:text="@string/open_website"
                         android:textColor="@color/white" />
 
                 </LinearLayout>

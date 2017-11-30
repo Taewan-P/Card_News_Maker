@@ -27,16 +27,19 @@
     <string name="undo">Undo</string>
     <string name="erase">Erase</string>
 
+    <string name="open_license">License</string>
+    <string name="open_website">Website</string>
+
     <string name="mylicense">
         LICENSE\n\
         Software : Card_News_Making_Tool\n
-        Team : Navigation\n\
+        Team : Navygation\n\
         This guarantee Card_News_Making_Tool License.\n
         * MIT License\n
         * CC 3.0 License\n\
         Card_News_Making_Tool License is MIT License.\n\
         2017.11.23\n
-        Navigation\n\n\
+        Navygation\n\n\
     </string>
 
     <string name="license">
