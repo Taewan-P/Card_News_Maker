@@ -207,6 +207,8 @@ public class PhotoEditorSDK implements MultiTouchListener.OnMultiTouchListener {
                     parentView.setDrawingCacheEnabled(true);
                     parentView.getDrawingCache().compress(Bitmap.CompressFormat.JPEG, 100, out);
                 }
+                // cut the image
+
                 out.flush();
                 out.close();
             } catch (Exception e) {

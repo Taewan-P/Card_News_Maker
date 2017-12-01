@@ -24,4 +24,8 @@
         <item name="android:textColorPrimary">#FFFFFF</item>
         <item name="android:textSize">14sp</item>
     </style>
+    
+    <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
 </resources>
