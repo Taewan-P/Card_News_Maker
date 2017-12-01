@@ -1,4 +1,6 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="image_loader_post_width">450dp</dimen>
+    <dimen name="button_width">86dp</dimen>
+    <dimen name="button_height">86dp</dimen>
 </resources>

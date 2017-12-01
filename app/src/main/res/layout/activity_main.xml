@@ -51,38 +51,48 @@
                     tools:layout_editor_absoluteY="0dp">
 
                     <Button
-                        android:layout_width="86dp"
-                        android:layout_height="86dp"
+                        android:id="@+id/camerabtn"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
                         android:backgroundTint="@color/light_violet_color"
                         android:drawableTop="@drawable/camera"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
                         android:onClick="openUserCamera"
                         android:text="@string/choose_from_camera"
                         android:textColor="@color/white" />
 
                     <Button
-                        android:layout_width="86dp"
-                        android:layout_height="86dp"
+                        android:id="@+id/gallerybtn"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
                         android:backgroundTint="@color/light_violet_color"
                         android:drawableTop="@drawable/image"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
                         android:onClick="openUserGallery"
                         android:text="@string/choose_from_gallery"
                         android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/licensecbtn"
-                        android:layout_width="86dp"
-                        android:layout_height="86dp"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
                         android:backgroundTint="@color/light_violet_color"
                         android:drawableTop="@drawable/document"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
                         android:text="@string/open_license"
                         android:textColor="@color/white" />
 
                     <Button
                         android:id="@+id/websitebtn"
-                        android:layout_width="86dp"
-                        android:layout_height="86dp"
+                        android:layout_width="@dimen/button_width"
+                        android:layout_height="@dimen/button_height"
                         android:backgroundTint="@color/light_violet_color"
                         android:drawableTop="@drawable/web"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
                         android:text="@string/open_website"
                         android:textColor="@color/white" />
 
@@ -106,4 +116,3 @@
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
-
