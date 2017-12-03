@@ -27,6 +27,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
                 android:layout_centerHorizontal="true"
                 android:contentDescription="cover_image"
                 app:srcCompat="@drawable/cover" />
@@ -45,7 +46,7 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="@dimen/button_height"
                     android:backgroundTint="@color/light_violet_color"
-                    android:drawablePadding="5dp"
+                    android:drawablePadding="@dimen/button_padding"
                     android:drawableTop="@drawable/camera"
                     android:gravity="center"
                     android:onClick="openUserCamera"
@@ -57,7 +58,7 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="@dimen/button_height"
                     android:backgroundTint="@color/light_violet_color"
-                    android:drawablePadding="5dp"
+                    android:drawablePadding="@dimen/button_padding"
                     android:drawableTop="@drawable/image"
                     android:gravity="center"
                     android:onClick="openUserGallery"
@@ -69,7 +70,7 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="@dimen/button_height"
                     android:backgroundTint="@color/light_violet_color"
-                    android:drawablePadding="5dp"
+                    android:drawablePadding="@dimen/button_padding"
                     android:drawableTop="@drawable/document"
                     android:gravity="center"
                     android:text="@string/open_license"
@@ -80,7 +81,7 @@
                     android:layout_width="@dimen/button_width"
                     android:layout_height="@dimen/button_height"
                     android:backgroundTint="@color/light_violet_color"
-                    android:drawablePadding="5dp"
+                    android:drawablePadding="@dimen/button_padding"
                     android:drawableTop="@drawable/web"
                     android:gravity="center"
                     android:text="@string/open_website"
@@ -88,25 +89,6 @@
 
             </LinearLayout>
         </LinearLayout>
-
-        <!--<RelativeLayout-->
-            <!--android:id="@+id/license"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignParentTop="true"-->
-            <!--android:layout_alignStart="@+id/linearLayout"-->
-            <!--android:layout_marginTop="16dp">-->
-
-        <!--</RelativeLayout>-->
-
-        <!--<ImageView-->
-            <!--android:layout_width="50dp"-->
-            <!--android:layout_height="30dp"-->
-            <!--android:layout_alignParentBottom="true"-->
-            <!--android:contentDescription="cc_license_image"-->
-            <!--app:srcCompat="@drawable/cc3_0"-->
-            <!--tools:layout_editor_absoluteX="96dp"-->
-            <!--tools:layout_editor_absoluteY="622dp" />-->
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
