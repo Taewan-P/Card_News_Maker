@@ -14,7 +14,7 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         try{
-            Thread.sleep(2000); // 4 seconds
+            Thread.sleep(1000); // 1 seconds
         }catch (InterruptedException e){
             e.printStackTrace();
         }

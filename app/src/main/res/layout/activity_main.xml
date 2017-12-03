@@ -1,118 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.ahmedadeltito.cardnewsmaker.MainActivity">
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="10"
         android:background="#ffffff "
         android:gravity="center"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@id/license">
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="cover_image"
+                app:srcCompat="@drawable/cover" />
 
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
 
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="343dp"
-                        android:layout_height="253dp"
-                        android:layout_centerHorizontal="true"
-                        app:srcCompat="@drawable/cover" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="344dp"
-                    android:layout_height="106dp"
+                <Button
+                    android:id="@+id/camerabtn"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:backgroundTint="@color/light_violet_color"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/camera"
                     android:gravity="center"
-                    android:orientation="horizontal"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="0dp">
+                    android:onClick="openUserCamera"
+                    android:text="@string/choose_from_camera"
+                    android:textColor="@color/white" />
 
-                    <Button
-                        android:id="@+id/camerabtn"
-                        android:layout_width="@dimen/button_width"
-                        android:layout_height="@dimen/button_height"
-                        android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="@drawable/camera"
-                        android:drawablePadding="5dp"
-                        android:gravity="center"
-                        android:onClick="openUserCamera"
-                        android:text="@string/choose_from_camera"
-                        android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/gallerybtn"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:backgroundTint="@color/light_violet_color"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/image"
+                    android:gravity="center"
+                    android:onClick="openUserGallery"
+                    android:text="@string/choose_from_gallery"
+                    android:textColor="@color/white" />
 
-                    <Button
-                        android:id="@+id/gallerybtn"
-                        android:layout_width="@dimen/button_width"
-                        android:layout_height="@dimen/button_height"
-                        android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="@drawable/image"
-                        android:drawablePadding="5dp"
-                        android:gravity="center"
-                        android:onClick="openUserGallery"
-                        android:text="@string/choose_from_gallery"
-                        android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/licensecbtn"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:backgroundTint="@color/light_violet_color"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/document"
+                    android:gravity="center"
+                    android:text="@string/open_license"
+                    android:textColor="@color/white" />
 
-                    <Button
-                        android:id="@+id/licensecbtn"
-                        android:layout_width="@dimen/button_width"
-                        android:layout_height="@dimen/button_height"
-                        android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="@drawable/document"
-                        android:drawablePadding="5dp"
-                        android:gravity="center"
-                        android:text="@string/open_license"
-                        android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/websitebtn"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="@dimen/button_height"
+                    android:backgroundTint="@color/light_violet_color"
+                    android:drawablePadding="5dp"
+                    android:drawableTop="@drawable/web"
+                    android:gravity="center"
+                    android:text="@string/open_website"
+                    android:textColor="@color/white" />
 
-                    <Button
-                        android:id="@+id/websitebtn"
-                        android:layout_width="@dimen/button_width"
-                        android:layout_height="@dimen/button_height"
-                        android:backgroundTint="@color/light_violet_color"
-                        android:drawableTop="@drawable/web"
-                        android:drawablePadding="5dp"
-                        android:gravity="center"
-                        android:text="@string/open_website"
-                        android:textColor="@color/white" />
-
-                </LinearLayout>
             </LinearLayout>
-        </RelativeLayout>
+        </LinearLayout>
 
-        <RelativeLayout
-            android:id="@+id/license"
-            android:layout_width="wrap_content"
-            android:layout_height="80dp">
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/license"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignStart="@+id/linearLayout"-->
+            <!--android:layout_marginTop="16dp">-->
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="30dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                app:srcCompat="@drawable/cc3_0" />
+        <!--</RelativeLayout>-->
 
-        </RelativeLayout>
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:contentDescription="cc_license_image"-->
+            <!--app:srcCompat="@drawable/cc3_0"-->
+            <!--tools:layout_editor_absoluteX="96dp"-->
+            <!--tools:layout_editor_absoluteY="622dp" />-->
 
-    </LinearLayout>
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

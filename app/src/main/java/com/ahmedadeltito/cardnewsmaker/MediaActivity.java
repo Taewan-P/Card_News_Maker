@@ -2,11 +2,15 @@ package com.ahmedadeltito.cardnewsmaker;
 
 import android.content.Intent;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
+import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.util.Log;
+
+import java.io.IOException;
 
 /**
  * Created by Ahmed Adel on 09/06/2017.
@@ -48,6 +52,8 @@ public abstract class MediaActivity extends BaseActivity {
                     }
 
                     if (UtilFunctions.stringIsNotEmpty(selectedImagePath)) {
+
+
                         // decode image size
                         BitmapFactory.Options o = new BitmapFactory.Options();
                         o.inJustDecodeBounds = true;
