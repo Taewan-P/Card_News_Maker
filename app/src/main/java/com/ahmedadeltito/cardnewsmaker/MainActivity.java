@@ -47,7 +47,7 @@ public class MainActivity extends MediaActivity {
             public void onClick(View v) {
 
                 // Activity transition Code
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bit.ly/2khR4di"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://swimtw.synology.me/wordpress"));
                 startActivity(intent);
             }
         });
