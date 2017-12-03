@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Card News Making Tool</string>
+    <string name="app_name">Card News Maker</string>
     <string name="title_activity_photo_editor">PhotoEditorActivity</string>
     <string name="done">Done</string>
     <string name="save">Save</string>
