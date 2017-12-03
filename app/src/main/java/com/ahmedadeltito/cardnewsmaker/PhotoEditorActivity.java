@@ -103,12 +103,12 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
         ViewPager pager = (ViewPager) findViewById(R.id.image_emoji_view_pager);
         PageIndicator indicator = (PageIndicator) findViewById(R.id.image_emoji_indicator);
 
-        photoEditImageView.setImageBitmap(bitmap);
         // Edited!
         // Rotate Image Automatically Since Exif auto rotates images from imageview
         try {
             ExifInterface exif = new ExifInterface(selectedImagePath);
             int orientation = exif.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+
             Matrix matrix = new Matrix();
             switch (orientation) {
                 case ExifInterface.ORIENTATION_FLIP_HORIZONTAL:
@@ -136,11 +136,16 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
                     matrix.setRotate(-90);
                     break;
             }
-            photoEditImageView.setImageMatrix(matrix);
+
+
+            //Rotate an existing bitmap image based on EXIF data
+            //Essential Code!
+            bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
         }
         catch(IOException e){
             e.printStackTrace();
         }
+        photoEditImageView.setImageBitmap(bitmap);
 
         closeTextView.setTypeface(newFont);
         addTextView.setTypeface(newFont);
