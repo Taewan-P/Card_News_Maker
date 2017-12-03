@@ -9,12 +9,15 @@ import android.content.Intent;
  */
 
 public class SplashActivity extends Activity {
+
+    private final int SPLASH_DISPLAY_LENGTH = 1000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
         try{
-            Thread.sleep(1000); // 1 seconds
+            Thread.sleep(SPLASH_DISPLAY_LENGTH); // 1 seconds
         }catch (InterruptedException e){
             e.printStackTrace();
         }
