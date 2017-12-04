@@ -159,7 +159,7 @@ public class BaseActivity extends AppCompatActivity {
         if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
             if (!isKitKat) {
                 Intent intent = new Intent();
-                intent.setType("image/jpeg");
+                intent.setType("image/*");
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(
                         Intent.createChooser(intent, getString(R.string.upload_picker_title)),
@@ -167,7 +167,7 @@ public class BaseActivity extends AppCompatActivity {
             } else {
                 Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                 intent.addCategory(Intent.CATEGORY_OPENABLE);
-                intent.setType("image/jpeg");
+                intent.setType("image/*");
                 startActivityForResult(intent, GALLERY_KITKAT_INTENT_CALLED);
             }
         } else {
@@ -185,7 +185,7 @@ public class BaseActivity extends AppCompatActivity {
                 if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
                     if (!isKitKat) {
                         Intent intent = new Intent();
-                        intent.setType("image/jpeg");
+                        intent.setType("image/*");
                         intent.setAction(Intent.ACTION_GET_CONTENT);
                         startActivityForResult(
                                 Intent.createChooser(intent, getString(R.string.upload_picker_title)),
@@ -193,7 +193,7 @@ public class BaseActivity extends AppCompatActivity {
                     } else {
                         Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                         intent.addCategory(Intent.CATEGORY_OPENABLE);
-                        intent.setType("image/jpeg");
+                        intent.setType("image/*");
                         startActivityForResult(intent, GALLERY_KITKAT_INTENT_CALLED);
                     }
                 } else {
