@@ -32,12 +32,12 @@
 
     <string name="mylicense">
         LICENSE\n\
-        Software : Card_News_Making_Tool\n
+        Software : Card News Maker\n
         Team : Navygation\n\
-        This guarantee Card_News_Making_Tool License.\n
-        * MIT License\n
-        * CC 3.0 License\n\
-        Card_News_Making_Tool License is MIT License.\n\
+        The software and its license\nfor developing Card News Maker.\n\
+        * PhotoEditorSDK - MIT License\n\n\
+        Card_News_Maker License is MIT License.\n
+        The app icon is CC BY-NC-ND License.\n\
         2017.11.23\n
         Navygation\n\n\
     </string>
