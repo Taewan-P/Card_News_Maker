@@ -26,7 +26,7 @@ public class MainActivity extends MediaActivity {
         setContentView(R.layout.activity_main);
 
         // Activity transition Code
-        Button button1 = (Button)findViewById(R.id.licensecbtn);
+        Button button1 = (Button) findViewById(R.id.licensecbtn);
 
         button1.setOnClickListener(new View.OnClickListener() {
 
@@ -39,7 +39,7 @@ public class MainActivity extends MediaActivity {
             }
         });
 
-        Button button2 = (Button)findViewById(R.id.websitebtn);
+        Button button2 = (Button) findViewById(R.id.websitebtn);
 
         button2.setOnClickListener(new View.OnClickListener() {
 
