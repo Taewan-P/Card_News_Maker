@@ -18,7 +18,7 @@ public class SplashActivity extends Activity {
 
         try{
             Thread.sleep(SPLASH_DISPLAY_LENGTH); // 1 seconds
-        }catch (InterruptedException e){
+        } catch(InterruptedException e) {
             e.printStackTrace();
         }
         startActivity(new Intent(this,MainActivity.class));

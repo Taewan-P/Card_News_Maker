@@ -141,8 +141,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
             //Rotate an existing bitmap image based on EXIF data
             //Essential Code!
             bitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
-        }
-        catch(IOException e){
+        } catch(IOException e) {
             e.printStackTrace();
         }
         photoEditImageView.setImageBitmap(bitmap);
