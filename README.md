@@ -39,9 +39,9 @@ Works on devices 4.2+ (Jelly Bean or Higher).
 
 ## Installation
 
-Download it at Google Play. Enjoy!
+Download it on Google Play. Enjoy!
 
-[![GooglePlayLogo](https://raw.githubusercontent.com/Taewan-P/Card_News_Maker/master/screenshots/google-play-badge.png)](https://play.google.com)
+[![GooglePlayLogo](https://raw.githubusercontent.com/Taewan-P/Card_News_Maker/master/screenshots/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.navygation.cardnewsmaker)
 
 
 
