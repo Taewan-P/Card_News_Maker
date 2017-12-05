@@ -1,4 +1,4 @@
-# Card_News_Making_Tool-android
+# Card_News_Maker-android
 *This repository is made for OpenSource SW PBL(Project-Based Learning) class at Hanyang Univ.*
 
 It's an android app that makes card-news. 
@@ -7,7 +7,7 @@ Card News is a unique culture in Korea that puts news contents in form of cards.
 
 **[CardNewsMaker](https://github.com/Taewan-P/Card_News_Making_Tool)** is a Card News making tool which is based on **[PhotoEditorSDK](https://github.com/eventtus/photo-editor-android)**.
 
-![Main](https://raw.githubusercontent.com/Taewan-P/Card_News_Making_Tool/master/screenshots/allinone.png)
+![Main](https://raw.githubusercontent.com/Taewan-P/Card_News_Maker/master/screenshots/allinone_final.png)
 
 
 
@@ -26,7 +26,6 @@ Card News is a unique culture in Korea that puts news contents in form of cards.
 
 ## Known Bugs
 
-* Hi-Resolution vertically long images(Portrait) rotates 90 degrees counterclockwise automatically.
 * Without editing anything at the photo editing screen, clicking 'Clear All' button makes app crash.
 * The saved images(Edited with horizontally long images) have blank black space on top and bottom of the image.
 
@@ -40,13 +39,15 @@ Works on devices 4.2+ (Jelly Bean or Higher).
 
 ## Installation
 
-Download the apk [Here](https://drive.google.com/uc?id=1nBfh5VJB5BEZ_725iBXb62kcM-4KbYqb&export=download) and install. Make sure you enable **unknown sources** in **Settings-Security** in order to install this app. In latest Samsung devices, you can allow once to install this app without enabling unknown sources. 
-
-
+Download it at Google Play.
 
 ## Credits
 
-[Yejun Kim](https://github.com/kyj0701), [Taewan Park](https://github.com/Taewan-P), [Hongil Son](https://github.com/sonhl0723), [Chaelin Yeo](https://github.com/ChaeLinYeo), [Jinwoo Choi](https://github.com/ptcjw201) at Hanyang University. (Team #yellow-10)
+[Yejun Kim](https://github.com/kyj0701), [Taewan Park](https://github.com/Taewan-P), [Hongil Son](https://github.com/sonhl0723), [Chaelin Yeo](https://github.com/ChaeLinYeo), [Jinwoo Choi](https://github.com/ptcjw201), [Hayeong Lee](https://github.com/hy-kiera), [Seunggyu KIm](https://github.com/miller198), [Sunghun Kim](https://github.com/Avkal) at Hanyang University. (Team Navygation)
+
+##### Speacial thanks to **Yein Lee** at Kookmin University for designing our app icons.
+
+Designer Email : yein0305@naver.com
 
 
 
@@ -55,11 +56,13 @@ Download the apk [Here](https://drive.google.com/uc?id=1nBfh5VJB5BEZ_725iBXb62kc
 Copyright (c) 2017
 
 * MIT License
-* Creative Commons Attribution 3.0 International (CC BY 3.0) license
-  * License : https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode
-  * App Icon Source : https://thenounproject.com/
 
 
+Card_News_Maker-android is released under the MIT License.
 
-Card_News_Making_Tool-android is released under the MIT License.
+#### Our App Icon
+
+* CC BY-NC-ND
+
+  ​
 
