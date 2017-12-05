@@ -53,14 +53,12 @@ Designer Email : yein0305@naver.com
 
 ## License
 
-Copyright (c) 2017
+#### Card_News_Maker mobile android application
 
 * MIT License
 
 
-Card_News_Maker-android is released under the MIT License.
-
-#### Our App Icon
+#### App Icon
 
 * CC BY-NC-ND
 
