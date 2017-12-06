@@ -26,7 +26,6 @@ Card News is a unique culture in Korea that puts news contents in form of cards.
 
 ## Known Bugs
 
-* Without editing anything at the photo editing screen, clicking 'Clear All' button makes app crash.
 * The saved images(Edited with horizontally long images) have blank black space on top and bottom of the image.
 
 

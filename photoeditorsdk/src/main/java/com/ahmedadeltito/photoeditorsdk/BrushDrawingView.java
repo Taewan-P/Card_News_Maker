@@ -118,8 +118,15 @@ public class BrushDrawingView extends View {
     }
 
     void clearAll() {
-        drawCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
-        invalidate();
+        try{
+            drawCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
+            invalidate();
+        }
+        catch (NullPointerException n)
+        {
+            n.printStackTrace();
+        }
+
     }
 
     public void setOnPhotoEditorSDKListener(OnPhotoEditorSDKListener onPhotoEditorSDKListener) {
