@@ -383,7 +383,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
         Uri uri = Uri.fromFile(sharedFile);
         share.setType("image/jpeg");
         share.putExtra(Intent.EXTRA_STREAM, uri);
-        startActivity(Intent.createChooser(share, "편집한 카드 공유하기"));
+        startActivity(Intent.createChooser(share, "Share"));
     }
 
 

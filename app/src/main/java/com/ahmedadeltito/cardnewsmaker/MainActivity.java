@@ -62,4 +62,13 @@ public class MainActivity extends MediaActivity {
         intent.putExtra("selectedImagePath", selectedImagePath);
         startActivity(intent);
     }
+    @Override
+    protected void onDestroy() {
+        if (bitmap != null) {
+            bitmap.recycle();
+            bitmap = null;
+        }
+        System.gc();
+        super.onDestroy();
+    }
 }

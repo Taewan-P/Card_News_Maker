@@ -66,14 +66,14 @@ public abstract class MediaActivity extends BaseActivity {
                         final int MAX_SIZE = getResources().getDimensionPixelSize(
                                 R.dimen.image_loader_post_width);
                         int scale = 1;
-                        // while (true) {
-                        // if (width_tmp / 2 < MAX_SIZE
-                        // || height_tmp / 2 < MAX_SIZE)
-                        // break;
-                        // width_tmp /= 2;
-                        // height_tmp /= 2;
-                        // scale *= 2;
-                        // }
+                        while (true) {
+                            if (width_tmp / 2 < MAX_SIZE || height_tmp / 2 < MAX_SIZE) {
+                                break;
+                            }
+                         width_tmp /= 2;
+                         height_tmp /= 2;
+                         scale *= 2;
+                         }
                         if (height_tmp > MAX_SIZE || width_tmp > MAX_SIZE) {
                             if (width_tmp > height_tmp) {
                                 scale = Math.round((float) height_tmp
