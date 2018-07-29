@@ -38,19 +38,6 @@ public class MainActivity extends MediaActivity {
                 startActivity(intent);
             }
         });
-
-        Button button2 = (Button) findViewById(R.id.websitebtn);
-
-        button2.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-
-                // Activity transition Code
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://swimtw.synology.me/wordpress"));
-                startActivity(intent);
-            }
-        });
     }
 
 
