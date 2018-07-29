@@ -14,6 +14,7 @@ import android.os.Environment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.content.FileProvider;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -380,7 +381,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
 
         Intent share = new Intent(Intent.ACTION_SEND);
         File sharedFile = new File(imagePath);
-        Uri uri = Uri.fromFile(sharedFile);
+        Uri uri = FileProvider.getUriForFile(this, "com.ahmedadeltito.android.com.fileprovider",sharedFile);
         share.setType("image/jpeg");
         share.putExtra(Intent.EXTRA_STREAM, uri);
         startActivity(Intent.createChooser(share, "Share"));
