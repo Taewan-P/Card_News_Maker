@@ -1,4 +1,4 @@
-# Card_News_Maker-android
+# Card_News_provider-android
 *This repository is made for OpenSource SW PBL(Project-Based Learning) class at Hanyang Univ.*
 
 It's an android app that makes card-news. 
